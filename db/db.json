@@ -1,0 +1,10 @@
+[
+    {
+        "title":"Test Title",
+        "text":"Test text"
+    },
+    {
+        "title":"Hard Coded note",
+        "text": "Hard coded first test note!!"
+    }
+]
