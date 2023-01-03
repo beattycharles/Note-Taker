@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require("uuid");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-// JSON parsing
+// MiddleWare
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
@@ -39,7 +39,7 @@ app.post("/api/notes", (req, res) => {
         fs.writeFile(
           "./db/db.json",
           JSON.stringify(parsedNotes, null, 4),
-          (writeErr) => (writeErr ? console.error(writeErr) : res.send(db))
+          (writeErr) => (writeErr ? console.error(writeErr) : res.send())
         );
       }
     });
