@@ -1,27 +1,7 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": "1"
-    },
-    {
-        "title": "Hard Coded note",
-        "text": "Hard coded first test note!!",
-        "id": "2"
-    },
-    {
-        "title": "test 2",
-        "text": "test 2 ",
-        "id": "7d746a28-046e-4b69-b4e2-4ceb9b41f384"
-    },
-    {
-        "title": "test show",
-        "text": "show after save\n",
-        "id": "7e0f342a-3175-419d-9366-cf95767460c9"
-    },
-    {
-        "title": "refresh save",
-        "text": "testing refresh show.",
-        "id": "dbd16601-435f-46cf-9249-f3259499983b"
+        "title": "test1",
+        "text": "test",
+        "id": "c627b9d3-665b-4231-960a-d0b51705beec"
     }
 ]
